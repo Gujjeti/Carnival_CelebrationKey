@@ -1,0 +1,103 @@
+html,
+body,
+div,
+a,
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
+}
+
+
+* {
+	transition: cubic-bezier(.17, .67, .83, .67);
+	box-sizing: border-box;
+}
+
+
+.bannerAd {
+	cursor: pointer;
+	border: 1px solid #000;
+	width: 300px;
+	height: 250px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	background-color: #14c6d1;
+
+}
+
+.content{
+	width: 128px;
+	background-color: #00c6d3;
+	text-align: center;
+    padding: 32px 8px 40px;
+}
+
+
+.content span{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span.text3 {
+    margin-bottom: 3px;
+}
+
+span.text4 {
+    display: block;
+	margin-bottom: -1px;
+}
+span.Carnival_logo {
+    margin-top: 33px;
+	margin-bottom: 20px;
+}
+
+.Carnival_logo img{
+	width: 105px;
+}
+
+span.text2, span.text3 {
+    margin-top: 2px;
+}
+
+.imgContainer{
+	width: 172px;
+	height: 100%;
+}
+
+.imgContainer img{
+	width: 100%;
+	height: 100%;object-fit: cover;
+}
+
+
+.learmoreCta {
+    background: #dd1125;
+    color: #fff;
+    border: 0;
+    width: 40.88px;
+    height: 10.38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 10px;
+    text-transform: uppercase;
+	cursor: pointer;
+}
+
+.learmoreCta:hover{
+	background-color: #fff;
+}
+
+.learmoreCta:hover svg path{
+	fill: #dd1125;
+}
+
+

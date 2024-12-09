@@ -1,0 +1,145 @@
+html,
+body,
+div,
+a,
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
+}
+
+
+* {
+	transition: cubic-bezier(.17, .67, .83, .67);
+	box-sizing: border-box;
+}
+
+
+.bannerAd {
+	cursor: pointer;
+	border: 1px solid #000;
+	width: 970px;
+	height: 250px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	background-color: #e55448;
+
+}
+
+.content{
+	width: 266px;
+	height: 100%;
+	background-color: #e55448;
+	text-align: center;
+    padding: 30px 8px 40px;
+	text-align: center;
+}
+
+
+.content span{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.fistCopy {
+    position: absolute;
+    width: 100%;
+}
+.secCopy span {
+    display: block;
+}
+span.text3 {
+    margin-bottom: 15px;
+}
+
+span.text4 {
+    display: block;
+    margin-bottom: -4px;
+}
+
+.content span{display: block;}
+span.text5{display: block}
+span.Carnival_logo {
+    margin-top: 3px;
+	margin-bottom: 18px;
+}
+
+span.text2, span.text3 {
+    margin-top: 3px;
+}
+
+.imgContainer{
+	width: 704px;
+	height: 100%;
+	position: relative;
+}
+
+
+.Main_content {
+    width: 414px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+	text-align: center;
+}
+
+.fistCopy span{
+	display: block;
+
+}
+
+.fistCopy, .secCopy {
+    margin-top: 43px;
+	margin-bottom: 10px;
+
+}
+
+.imgContainer .mainImg{
+	width: 100%;
+	height: 100%;object-fit: cover;
+}
+
+
+.learmoreCta {
+    background: #fff;
+    color: #fff;
+    border: 0;
+    width: 81.33px;
+    height: 19.03px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 10px;
+    text-transform: uppercase;
+	cursor: pointer;
+}
+
+button.learmoreCta svg {
+    transform: translateY(-0.5px);
+}
+
+.learmoreCta:hover{
+	background-color: #dd1125;
+}
+
+.learmoreCta:hover svg path{
+	fill: #fff;
+}
+
+
+.Carnival_logo img{
+	width: 245px;
+}
+
+.terms {
+	margin-top: 3px;
+}
