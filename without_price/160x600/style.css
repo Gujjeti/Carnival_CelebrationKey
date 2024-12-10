@@ -56,8 +56,8 @@ span.text4 {
     display: block;
 }
 span.Carnival_logo {
-    margin-top: 60px;
-	margin-bottom: 23px;
+    margin-top: 38px;
+	margin-bottom: 29px;
 }
 
 span.text2, span.text3 {
@@ -79,8 +79,8 @@ span.text2, span.text3 {
     background: #dd1125;
     color: #fff;
     border: 0;
-    width: 67.98px;
-    height: 15.7px;
+    width: 78.12px;
+    height: 18.04px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,5 +104,5 @@ button.learmoreCta svg {
 
 
 .Carnival_logo img{
-	width: 130px;
+	width: 152px;
 }
