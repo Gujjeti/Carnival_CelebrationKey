@@ -27,14 +27,14 @@ img {
 	position: relative;
 	overflow: hidden;
 	display: flex;
-	background-color: #6270c4;
+	background-color: #e55448;
 
 }
 
 .content{
 	width: 266px;
 	height: 100%;
-	background-color: #6270c4;
+	background-color: #e55448;
 	text-align: center;
     padding: 30px 8px 40px;
 	text-align: center;
@@ -109,7 +109,7 @@ span.text2, span.text3 {
 
 
 .learmoreCta {
-    background: #dd1125;
+    background: #fec223;
     color: #fff;
     border: 0;
     width: 81.33px;
@@ -128,11 +128,11 @@ button.learmoreCta svg {
 }
 
 .learmoreCta:hover{
-	background-color: #fff;color: #dd1125;
+	background-color: rgb(0, 84, 155);color: #fec223;
 }
 
 .learmoreCta:hover svg path{
-	fill: #dd1125;
+	fill: #fec223;
 }
 
 
