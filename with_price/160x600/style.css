@@ -34,18 +34,35 @@ img {
 
 .content{
 	width: 100%;
-	height: 173px;
+	height: 338px;
 	background-color: #ef7fa2;
 	text-align: center;
-    padding: 16px 8px 40px;
+    padding: 32px 0px 40px;
 	text-align: center;
 }
 
+.secCopy img {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+span.text7 {
+    margin-top: 8px;
+}
 
 .content span{
 	display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.fistCopy img {
+    margin-bottom: 2px;
+}
+
+.fistCopy {
+    position: absolute;
+    width: 100%;
 }
 
 span.text3 {
@@ -57,8 +74,8 @@ span.text4 {
     margin-bottom: -2px;
 }
 span.Carnival_logo {
-    margin-top: 15px;
-	margin-bottom: 16px;
+    margin-top: 30px;
+	margin-bottom: 29px;
 }
 
 span.text2, span.text3 {
@@ -67,7 +84,7 @@ span.text2, span.text3 {
 
 .imgContainer{
 	width: 100%;
-	height: 427px;
+	height: 262px;
 	position: relative;
 }
 
@@ -89,8 +106,8 @@ span.text2, span.text3 {
     background: #dd1125;
     color: #fff;
     border: 0;
-    width: 67.98px;
-    height: 15.7px;
+    width: 78px;
+    height: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,7 +131,7 @@ button.learmoreCta svg {
 
 
 .Carnival_logo img{
-	width: 130px;
+	width: 145px;
 }
 
 span.text9 {

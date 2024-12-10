@@ -63,12 +63,13 @@ span.text4 {
     margin-bottom: 1px;
 }
 span.Carnival_logo {
-    margin-top: 20px;
+    margin-top: 12px;
 	margin-bottom: 20px;
 }
 
 p.terms {
     margin: 0;
+	margin-top: 6px;
 }
 .secCopy span {
     display: block;

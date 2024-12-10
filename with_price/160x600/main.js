@@ -6,26 +6,32 @@ let tl = gsap.timeline({
   // repeatDelay: 3,
 });
 
-tl.from('.fistCopy span',{
+
+tl.from(['.fistCopy span'],{
   y:15,
   duration:0.8,
   stagger:0.2,
   opacity:0
 })
 
-.from(['.text4, .text5, .Carnival_logo'],{
+.from(['.text7, .text8, .Carnival_logo'],{
   y:15,
   duration:0.8,
-  opacity:0,
+  opacity:0
 }, "-=0.5")
 
-
-.from(['.content.bottom span'],{
-  y:15,
+.to(['.fistCopy span'],{
+  y:-5,
   duration:0.8,
   opacity:0,
+  delay:1
+})
+.from('.secCopy span',{
+  y:15,
+  duration:0.8,
   stagger:0.2,
-}, "-=0.5")
+  opacity:0
+})
 
 
 

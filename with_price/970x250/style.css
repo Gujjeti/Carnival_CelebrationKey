@@ -27,14 +27,14 @@ img {
 	position: relative;
 	overflow: hidden;
 	display: flex;
-	background-color: #e55448;
+	background-color: #6270c4;
 
 }
 
 .content{
 	width: 266px;
 	height: 100%;
-	background-color: #e55448;
+	background-color: #6270c4;
 	text-align: center;
     padding: 30px 8px 40px;
 	text-align: center;
@@ -68,7 +68,7 @@ span.text4 {
 span.text5{display: block}
 span.Carnival_logo {
     margin-top: 3px;
-	margin-bottom: 18px;
+	margin-bottom: 15px;
 }
 
 span.text2, span.text3 {
@@ -109,7 +109,7 @@ span.text2, span.text3 {
 
 
 .learmoreCta {
-    background: #fff;
+    background: #dd1125;
     color: #fff;
     border: 0;
     width: 81.33px;
@@ -128,11 +128,11 @@ button.learmoreCta svg {
 }
 
 .learmoreCta:hover{
-	background-color: #dd1125;
+	background-color: #fff;color: #dd1125;
 }
 
 .learmoreCta:hover svg path{
-	fill: #fff;
+	fill: #dd1125;
 }
 
 
@@ -141,5 +141,5 @@ button.learmoreCta svg {
 }
 
 .terms {
-	margin-top: 3px;
+	margin-top: 10px;
 }
