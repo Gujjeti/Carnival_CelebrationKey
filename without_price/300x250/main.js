@@ -13,7 +13,7 @@ tl.from('.fistCopy span',{
   opacity:0
 })
 
-.from(['.text4, .text5, .Carnival_logo'],{
+.from(['.text4, .Carnival_logo'],{
   y:15,
   duration:0.8,
   opacity:0,
