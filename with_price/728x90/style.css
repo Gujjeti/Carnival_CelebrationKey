@@ -74,7 +74,7 @@ span.text5{display: block}
     position: absolute;
     bottom: 2px;
     left: 50%;
-    transform: translateX(-46%);
+    transform: translateX(-50%);
 }
 
 .pricetxt {
@@ -137,7 +137,7 @@ span.Carnival_logo {
     font-size: 10px;
     text-transform: uppercase;
 	cursor: pointer;
-	transform: translate(7px, -7px);
+	transform: translate(0px, -7px);
 }
 
 button.learmoreCta svg {
